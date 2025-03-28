@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_jailbreak_detection/flutter_jailbreak_detection.dart';
+import 'package:flutter_jailbreak_detection_plus/flutter_jailbreak_detection_plus.dart';
 
 void main() => runApp(new MyApp());
 
@@ -27,8 +27,8 @@ class _MyAppState extends State<MyApp> {
     bool developerMode;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      jailbroken = await FlutterJailbreakDetection.jailbroken;
-      developerMode = await FlutterJailbreakDetection.developerMode;
+      jailbroken = await FlutterJailbreakDetectionPlus.jailbroken;
+      developerMode = await FlutterJailbreakDetectionPlus.developerMode;
     } on PlatformException {
       jailbroken = true;
       developerMode = true;

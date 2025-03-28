@@ -1,12 +1,12 @@
-name: flutter_jailbreak_detection_example
-description: Demonstrates how to use the flutter_jailbreak_detection plugin.
-author: Jeroen Trappers <jeroen@appmire.be>
-homepage: https://github.com/jeroentrappers/flutter_jailbreak_detection
+name: flutter_jailbreak_detection_plus_example
+description: Demonstrates how to use the flutter_jailbreak_detection_plus plugin.
+author: Yazan Al-Kamsheh <yazan.alkamsheh2@Gmail.com>
+homepage: https://github.com/yazanalkamsheh/flutter_jailbreak_detection_plus.git
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=3.6.2 <4.0.0'
 
 dependencies:
   flutter:
@@ -18,7 +18,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_jailbreak_detection:
+  flutter_jailbreak_detection_plus:
     path: ../
 
 flutter:

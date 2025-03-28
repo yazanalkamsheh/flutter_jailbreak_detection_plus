@@ -1,4 +1,4 @@
-package appmire.be.flutterjailbreakdetection
+package yazan.alkamsheh.flutterjailbreakdetectionplus
 
 import android.content.Context
 import android.provider.Settings

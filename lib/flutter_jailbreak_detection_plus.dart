@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-class FlutterJailbreakDetection {
+class FlutterJailbreakDetectionPlus {
   static const MethodChannel _channel =
       const MethodChannel('flutter_jailbreak_detection');
 
