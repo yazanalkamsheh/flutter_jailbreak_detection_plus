@@ -1,3 +1,11 @@
+## 1.10.1
+
+* Updates and Improvements
+* Fixed minor bugs
+* Improved library performance
+
+Upgraded Dart version
+
 ## 1.8.0
 
 * Upgrade android embedding
