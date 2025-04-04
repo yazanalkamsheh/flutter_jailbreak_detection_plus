@@ -1,3 +1,6 @@
+## [1.10.4] - 2025-04-04
+- Add namespace
+
 ## 1.10.1
 
 * Updates and Improvements
