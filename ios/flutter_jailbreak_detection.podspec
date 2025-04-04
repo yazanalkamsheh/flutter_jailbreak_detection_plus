@@ -3,7 +3,7 @@ q#
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_jailbreak_detection_plus'
-  s.version          = '1.10.4'
+  s.version          = '1.10.5'
   s.summary          = 'Flutter jailbreak and root detection plugin'
   s.description      = <<-DESC
 Flutter jailbreak and root detection plugin
