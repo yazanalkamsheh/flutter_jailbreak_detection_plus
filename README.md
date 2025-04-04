@@ -8,9 +8,9 @@ and [IOSSecuritySuite](https://github.com/securing/IOSSecuritySuite) on iOS.
 ## Getting Started
 
 ```
-import 'package:flutter_jailbreak_detection/flutter_jailbreak_detection.dart';
+import 'package:flutter_jailbreak_detection_plus/flutter_jailbreak_detection_plus.dart';
 
-bool jailbroken = await FlutterJailbreakDetection.jailbroken;
-bool developerMode = await FlutterJailbreakDetection.developerMode; // android only.
+bool jailbroken = await FlutterJailbreakDetectionPlus.jailbroken;
+bool developerMode = await FlutterJailbreakDetectionPlus.developerMode; // android only.
 
 ```
