@@ -1,4 +1,4 @@
-# flutter_jailbreak_detection
+# flutter_jailbreak_detection_plus
 
 Flutter jailbreak and root detection plugin.
 
