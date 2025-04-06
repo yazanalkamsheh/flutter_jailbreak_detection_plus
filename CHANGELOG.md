@@ -1,5 +1,6 @@
 ## [1.10.6]
-- Fix on ios
+- Fixed: Jailbreak detection issue on iOS.
+- Thanks to @azizsoule for the PR.
 
 - ## [1.10.4] - 2025-04-04
 - Add namespace
