@@ -1,3 +1,10 @@
+## [1.10.7] - 2025-10-29
+### Fixed
+- Android 16KB page size compatibility (libtoolChecker.so)
+- RootBeer dependency update to 0.1.1
+- Updated Gradle, Kotlin, and build configuration
+
+
 ## [1.10.6]
 - Fixed: Jailbreak detection issue on iOS.
 - Thanks to @azizsoule for the PR.
