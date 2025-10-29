@@ -1,5 +1,16 @@
+# IDE files
 .idea/
-.idea/**
 *.iml
+
+# Build artifacts
 build/
+.dart_tool/
+.packages
+
+# Example build artifacts
+example/build/
+example/.dart_tool/
+
+# Local settings / logs
 *.log
+.fvmrc
