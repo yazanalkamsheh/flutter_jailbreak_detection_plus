@@ -1,3 +1,22 @@
+## [1.10.8] - 2026-10-27
+### Added
+- Swift Package Manager support for iOS. Thanks to @TeddyYeung for the PR.
+- README: requirements and a platform comparison table.
+
+### Changed
+- **Android:** `minSdk` raised from 17 to 21 (the minimum supported by Flutter).
+- **Android:** RootBeer checks now run on a background thread instead of the main thread.
+- **Android:** the developer-options check reads `Settings.Global`.
+- **Android:** set Kotlin `jvmTarget` to 17. Thanks to @pintusingh28 for the PR.
+- Minimum Flutter version is now 3.27.0 (matching the existing Dart `>=3.6.2` constraint).
+
+### Fixed
+- Corrected the package description (iOS uses IOSSecuritySuite) and removed the invalid `maintainer` field.
+- Synced the podspec version with `pubspec.yaml`.
+
+### Notes
+- `developerMode` is not equivalent across platforms: on iOS it returns whether the app runs in a simulator.
+
 ## [1.10.7] - 2025-10-29
 ### Fixed
 - Android 16KB page size compatibility (libtoolChecker.so)
