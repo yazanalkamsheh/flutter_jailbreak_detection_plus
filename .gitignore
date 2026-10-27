@@ -7,6 +7,8 @@
 pubspec.lock
 
 build/
+.build/
+.swiftpm/
 # Compiled class file
 *.class
 
