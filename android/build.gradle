@@ -23,7 +23,11 @@ rootProject.allprojects {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
+
+// AGP 9 built-in Kotlin registers the 'kotlin' extension itself and rejects 'kotlin-android'.
+if (project.extensions.findByName('kotlin') == null) {
+    apply plugin: 'kotlin-android'
+}
 
 android {
     namespace 'yazan.alkamsheh.flutterjailbreakdetectionplus'
@@ -38,12 +42,21 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
     
-    kotlinOptions {
-        jvmTarget = "17"
-    }
-    
     defaultConfig {
         minSdkVersion 21
+    }
+}
+
+// android.kotlinOptions exists only when the kotlin-android plugin is applied.
+if (android.extensions.findByName('kotlinOptions') != null) {
+    android.kotlinOptions {
+        jvmTarget = "17"
+    }
+} else {
+    kotlin {
+        compilerOptions {
+            jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
+        }
     }
 }
 
